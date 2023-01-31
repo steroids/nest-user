@@ -1,6 +1,6 @@
 {
   "name": "@steroidsjs/nest-user",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Steroids Nest User Module",
   "author": "",
   "license": "MIT",
@@ -9,13 +9,15 @@
     "watch": "tsc -p tsconfig-debug.json"
   },
   "dependencies": {
-    "@steroidsjs/nest": "^1.7.0",
-    "@steroidsjs/nest-modules": "^0.0.8",
     "@nestjs/common": "^9.2.1",
     "lodash": "^4.17.21"
   },
+  "peerDependencies": {
+    "@steroidsjs/nest": "^1",
+    "@steroidsjs/nest-modules": "^0"
+  },
   "devDependencies": {
-    "@steroidsjs/eslint-config": "^2.1.0",
+    "@steroidsjs/eslint-config": "^2.1.1",
     "copyfiles": "^2.4.1",
     "@nestjs/schematics": "^9.0.4",
     "@nestjs/testing": "^9.2.1",
