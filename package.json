@@ -1,6 +1,6 @@
 {
   "name": "@steroidsjs/nest-user",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Steroids Nest User Module",
   "author": "",
   "license": "MIT",
@@ -17,8 +17,8 @@
     "@steroidsjs/nest-modules": "^0"
   },
   "devDependencies": {
-    "@steroidsjs/nest": "^1.7.0",
-    "@steroidsjs/nest-modules": "^0.0.11",
+    "@steroidsjs/nest": "^1.7.3",
+    "@steroidsjs/nest-modules": "^0.0.13",
     "@steroidsjs/eslint-config": "^2.1.2",
     "copyfiles": "^2.4.1",
     "@nestjs/schematics": "^9.0.4",
