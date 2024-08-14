@@ -1,7 +1,7 @@
 import {ExtendField} from '@steroidsjs/nest/infrastructure/decorators/fields/ExtendField';
 import {IntegerField, PasswordField, StringField} from '@steroidsjs/nest/infrastructure/decorators/fields';
 import {IUserRegistrationDto} from '@steroidsjs/nest-modules/user/dtos/IUserRegistrationDto';
-import {UserModel} from '../models/UserModel';
+import {UserModel} from '../../../domain/models/UserModel';
 
 export class UserRegistrationDto implements IUserRegistrationDto {
     @StringField({

@@ -17,7 +17,7 @@
     "@steroidsjs/nest-modules": "^0"
   },
   "devDependencies": {
-    "@steroidsjs/nest": "^1.7.3",
+    "@steroidsjs/nest": "^2.1.1",
     "@steroidsjs/nest-modules": "^0.0.13",
     "@steroidsjs/eslint-config": "^2.1.2",
     "copyfiles": "^2.4.1",
