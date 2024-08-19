@@ -14,11 +14,11 @@
   },
   "peerDependencies": {
     "@steroidsjs/nest": "^1",
-    "@steroidsjs/nest-modules": "^0"
+    "@steroidsjs/nest-modules": "^0.1.5"
   },
   "devDependencies": {
     "@steroidsjs/nest": "^2.1.1",
-    "@steroidsjs/nest-modules": "^0.0.13",
+    "@steroidsjs/nest-modules": "^0.1.5",
     "@steroidsjs/eslint-config": "^2.1.2",
     "copyfiles": "^2.4.1",
     "@nestjs/schematics": "^9.0.4",
