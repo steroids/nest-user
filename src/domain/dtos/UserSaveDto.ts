@@ -1,4 +1,5 @@
 import {ExtendField} from '@steroidsjs/nest/infrastructure/decorators/fields/ExtendField';
+import { StringField } from '@steroidsjs/nest/infrastructure/decorators/fields';
 import {UserModel} from '../models/UserModel';
 
 export class UserSaveDto {
@@ -11,6 +12,8 @@ export class UserSaveDto {
     @ExtendField(UserModel)
     email: string;
 
-    @ExtendField(UserModel)
+    @StringField({
+        nullable: true,
+    })
     passwordHash: string;
 }
