@@ -6,6 +6,7 @@ import {UserSearchDto} from '../dtos/UserSearchDto';
 import {UserSaveDto} from '../dtos/UserSaveDto';
 import {UserModel} from '../models/UserModel';
 import {IUserRepository} from '../interfaces/IUserRepository';
+import {Inject} from "@nestjs/common";
 
 export class UserService extends CrudService<UserModel,
     UserSearchDto,
@@ -14,6 +15,7 @@ export class UserService extends CrudService<UserModel,
 
     constructor(
         /** UserRepository */
+        @Inject(IUserRepository)
         public repository: IUserRepository,
     ) {
         super();
