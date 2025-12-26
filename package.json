@@ -9,14 +9,15 @@
     "watch": "tsc -p tsconfig-debug.json"
   },
   "dependencies": {
-    "@nestjs/common": "^9.2.1",
     "lodash": "^4.17.21"
   },
   "peerDependencies": {
+    "@nestjs/common": "^9.2.1",
     "@steroidsjs/nest": "^1",
     "@steroidsjs/nest-modules": "^0.1.5"
   },
   "devDependencies": {
+    "@nestjs/common": "^9.2.1",
     "@steroidsjs/nest": "^3.2.2",
     "@steroidsjs/nest-modules": "^0.1.5",
     "@steroidsjs/eslint-config": "^2.1.2",
