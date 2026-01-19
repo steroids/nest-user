@@ -1,6 +1,12 @@
 # Steroids nest-user Changelog
 
-## [0.2.0](https://github.com/steroids/nest-user/compare/0.1.2...0.2.0) (2024-12-26)
+## [0.2.1](https://github.com/steroids/nest-user/compare/0.2.0...0.2.1) (2026-01-19)
+
+### Fixes
+
+- Фикс импорта UserRepository в UserModule
+
+## [0.2.0](https://github.com/steroids/nest-user/compare/0.1.2...0.2.0) (2025-12-26)
 
 ### Features
 
