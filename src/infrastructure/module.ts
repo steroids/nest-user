@@ -1,13 +1,12 @@
 import {AuthModule} from '@steroidsjs/nest-modules/auth/AuthModule';
 import {IAppModuleConfig} from '@steroidsjs/nest/infrastructure/applications/IAppModuleConfig';
 import {forwardRef, ModuleMetadata} from '@nestjs/common';
-import {IUserService} from "@steroidsjs/nest-modules/user/services/IUserService";
-import {UserService} from "../domain/services/UserService";
-import {IUserRepository} from "../domain/interfaces/IUserRepository";
-import {UserRepository} from "@steroidsjs/nest/infrastructure/tests/app/repositories/UserRepository";
-import {UserUpdatePasswordUseCase} from "../usecases/userUpdatePassword/UserUpdatePasswordUseCase";
-import {IUserUpdatePasswordUseCase} from "@steroidsjs/nest-modules/user/usecases/IUserUpdatePasswordUseCase";
-
+import {IUserService} from '@steroidsjs/nest-modules/user/services/IUserService';
+import {IUserUpdatePasswordUseCase} from '@steroidsjs/nest-modules/user/usecases/IUserUpdatePasswordUseCase';
+import {UserService} from '../domain/services/UserService';
+import {IUserRepository} from '../domain/interfaces/IUserRepository';
+import {UserUpdatePasswordUseCase} from '../usecases/userUpdatePassword/UserUpdatePasswordUseCase';
+import {UserRepository} from './repositories/UserRepository';
 
 export default (config: IAppModuleConfig) => ({
     imports: [
