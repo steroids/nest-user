@@ -1,9 +1,13 @@
 {
   "name": "@steroidsjs/nest-user",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Steroids Nest User Module",
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steroids/nest-user"
+  },
   "scripts": {
     "build": "tsc && copyfiles ./{package.json,LICENSE,README.md} dist/",
     "watch": "tsc -p tsconfig-debug.json"
