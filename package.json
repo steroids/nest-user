@@ -1,6 +1,6 @@
 {
   "name": "@steroidsjs/nest-user",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Steroids Nest User Module",
   "author": "",
   "license": "MIT",
@@ -18,7 +18,7 @@
   "peerDependencies": {
     "@nestjs/common": "^10.4.19",
     "@nestjs/typeorm": "^11.0.3",
-    "@steroidsjs/nest": "^5.0.0-beta.1",
+    "@steroidsjs/nest": "^5.0.0",
     "@steroidsjs/nest-modules": "^0.1.6",
     "typeorm": "^1.1.0"
   },
@@ -28,7 +28,7 @@
     "@nestjs/testing": "^10.4.19",
     "@nestjs/typeorm": "^11.0.3",
     "@steroidsjs/eslint-config": "^2.1.2",
-    "@steroidsjs/nest": "^5.0.0-beta.1",
+    "@steroidsjs/nest": "^5.0.0",
     "@steroidsjs/nest-modules": "^0.1.6",
     "@types/node": "^22.13.17",
     "@typescript-eslint/eslint-plugin": "^5.49.0",

@@ -1,8 +1,8 @@
 # Steroids nest-user Changelog
 
-## Unreleased
+## [0.3.0](https://github.com/steroids/nest-user/compare/0.2.1...0.3.0) (2026-07-23)
 
-[Migration guide](docs/MigrationGuide.md#unreleased)
+[Migration guide](docs/MigrationGuide.md#030-2026-07-23)
 
 ### Changed
 
