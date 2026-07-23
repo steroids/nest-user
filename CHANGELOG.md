@@ -1,5 +1,16 @@
 # Steroids nest-user Changelog
 
+## Unreleased
+
+[Migration guide](docs/MigrationGuide.md#unreleased)
+
+### Changed
+
+- Форки `@steroidsjs/typeorm` и `@steroidsjs/nest-typeorm` заменены на оригинальные пакеты `typeorm` и `@nestjs/typeorm`.
+- `@steroidsjs/nest` обновлён до `5.0.0-beta.1`, а `@steroidsjs/nest-modules` — до `0.1.6`.
+- Зависимости NestJS приведены к версиям, совместимым с `@steroidsjs/nest@5.0.0-beta.1`: `@nestjs/common` и `@nestjs/testing` обновлены до `10.4.19`, `@nestjs/schematics` — до `10.2.3`, добавлен `@nestjs/typeorm@11.0.3`.
+- `@types/node` обновлён до `22.13.17` в соответствии с минимальной используемой версией Node.js.
+
 ## [0.2.1](https://github.com/steroids/nest-user/compare/0.2.0...0.2.1) (2026-01-19)
 
 ### Fixes
