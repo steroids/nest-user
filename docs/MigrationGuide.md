@@ -1,6 +1,6 @@
 # Steroids nest-user Migration Guide
 
-## [Unreleased](../CHANGELOG.md#unreleased)
+## [0.4.0](../CHANGELOG.md#040-2026-08-11) (2026-08-11)
 
 ### Поддержка NestJS 11
 
