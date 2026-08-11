@@ -1,5 +1,15 @@
 # Steroids nest-user Changelog
 
+## [Unreleased]
+
+[Migration guide](docs/MigrationGuide.md#unreleased)
+
+### Changed
+
+- Добавлена одновременная поддержка NestJS 10 и NestJS 11 в `peerDependencies` для `@nestjs/common` и `@nestjs/core`.
+- Среда разработки обновлена до NestJS 11, включая `@nestjs/schematics` и `@nestjs/testing`.
+- `ModuleMetadata` теперь импортируется из `@nestjs/common` как type-only import.
+
 ## [0.3.0](https://github.com/steroids/nest-user/compare/0.2.1...0.3.0) (2026-07-23)
 
 [Migration guide](docs/MigrationGuide.md#030-2026-07-23)

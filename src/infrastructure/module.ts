@@ -1,6 +1,7 @@
 import {AuthModule} from '@steroidsjs/nest-modules/auth/AuthModule';
 import {IAppModuleConfig} from '@steroidsjs/nest/infrastructure/applications/IAppModuleConfig';
-import {forwardRef, ModuleMetadata} from '@nestjs/common';
+import {forwardRef} from '@nestjs/common';
+import type {ModuleMetadata} from '@nestjs/common';
 import {IUserService} from '@steroidsjs/nest-modules/user/services/IUserService';
 import {IUserUpdatePasswordUseCase} from '@steroidsjs/nest-modules/user/usecases/IUserUpdatePasswordUseCase';
 import {UserService} from '../domain/services/UserService';
